@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OurTeam-SASS</title>
+    <!--font awesomeicon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--link được build ra từ file scss-->
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="./assets/img/crest.png" alt="logo" />
+        </div>
+        <div class="menuContent">
+          <nav class="menu">
+            <a href="#">Home</a>
+            <a class="active" href="#">About</a>
+            <a href="#">Courses</a>
+            <a href="#">Blog</a>
+            <a href="#">Shop</a>
+            <a href="#">Elements</a>
+          </nav>
+          <div class="MenuRight">
+            <button class="btnWidget">
+              <span class="fa fa-phone">(+1) 555 234-8765</span>
+            </button>
+            <div class="btIconWidget">
+              <span class="fab fa-twitter"></span>
+            </div>
+            <div class="btIconWidget">
+              <span class="fab fa-facebook-f"></span>
+            </div>
+            <div class="btIconWidget">
+              <span class="fab fa-youtube"></span>
+            </div>
+            <div class="btIconWidget">
+              <span class="fab fa-instagram"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="carousel">
+      <div class="container">
+        <div class="carousel-left">
+          <h3>About Us</h3>
+          <p>The language teaching experts</p>
+        </div>
+        <div class="carousel-right">
+          <img src="./assets/img/hero_team.png" alt="team" />
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="container">
+        <div class="card-grid">
+          <div class="card">
+            <img src="/assets/img/teacher_1.jpg" alt="tc1" />
+            <span>ITALIAN</span>
+            <h3>July Roberts</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_2.jpg" alt="tc2" />
+            <span>FRENCH</span>
+            <h3>Jon Stone</h3>
+            <p>Nanotechnology immersion along the information.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_3.jpg" alt="tc3" />
+            <span>JAPANESE</span>
+            <h3>Emma Stone</h3>
+            <p>Bring to the table win-win survival strategies to ensure.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_4.jpg" alt="tc4" />
+            <span>CHINESE</span>
+            <h3>Mark Lee</h3>
+            <p>Proactive domination. At the end of the day, going forward.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_5.jpg" alt="tc5" />
+            <span>RUSSIAN</span>
+            <h3>John Doe</h3>
+            <p>A new normal that has evolved from generation X.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_6.jpg" alt="tc6" />
+            <span>SWEDEN</span>
+            <h3>Jane Smith</h3>
+            <p>Heading towards a streamlined cloud solution.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_7.jpg" alt="tc7" />
+            <span>SPANISH</span>
+            <h3>Hanna Alverez</h3>
+            <p>Content in real-time will have multiple touchpoints.</p>
+          </div>
+          <div class="card">
+            <img src="/assets/img/teacher_8.jpg" alt="tc8" />
+            <span>ITALIAN</span>
+            <h3>July Roberts</h3>
+            <p>Capitalize on low hanging fruit to identify a ballpark.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Course">
+      <div class="container">
+        <div class="imge">
+          <img src="/assets/img/conatct_inner.png" alt="course_img" />
+        </div>
+        <div class="content_right">
+          <div class="form">
+            <h1>Find Your Course</h1>
+            <div class="name-email">
+              <div class="name-input">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="email-input">
+                <i class="fa fa-envelope"></i>
+                <input type="text" placeholder="Email" />
+              </div>
+            </div>
+            <div class="english">
+              <i class="fa fa-graduation-cap"></i>
+              <select>
+                <option value="">English</option>
+                <option value="">French</option>
+                <option value="">Spanish</option>
+                <option value="">German</option>
+              </select>
+            </div>
+            <div class="message">
+              <i class="fab fa-facebook-messenger"></i>
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="btnWidget"><span>SEND</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <div class="item">
+                <i class="fa fa-map-marker-alt"></i>
+                <p>Franklin St, Greenpoint Ave</p>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-phone-flip"></i>
+                <p>+2342 5446 67</p>
+            </div>
+            <div class="item">
+                <i class="fa fa-clock"></i>
+                <p>Monday - Friday: 8 AM - 5 PM</p>
+            </div>
+            <div class="social">
+                <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="link">
+          <h1>Quick Links</h1>
+          <a href="#">Home</a>
+          <a href="#">Courses</a>
+          <a href="#">Schedule</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="about">
+          <h1>About</h1>
+          <a href="#">About Us</a>
+          <a href="#">Events</a>
+          <a href="#">Get Quote</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="newsletter">
+          <h1>Newsletter</h1>
+          <input type="text" placeholder="Your email" />
+          <button class="sub btnWidget"><span>SUBSCRIBE</span></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

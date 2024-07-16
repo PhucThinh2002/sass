@@ -1,0 +1,75 @@
+$primary-color: #b61984;
+$text-white: #fff;
+$text-black: #000;
+$bg-color: #fff;
+
+// Sizing: Font size
+$text-base: 16px;
+$text-xl: 10px;
+$text-2xl: 20px;
+$text-3xl: 28px;
+$text-4xl: 40px;
+$text-5xl: 50px;
+$text-6xl: 60px;
+$text-7xl: 70px;
+$fw-light: 300;
+$fw-normal: 400;
+$fw-semi: 600;
+$fw-bold: 700;
+
+// Margin and Padding classes
+$lst-size: 0rem, 0.25rem, 0.5rem, 0.75rem, 1rem, 1.25rem, 1.5rem, 1.75rem, 2rem, 2.25rem, 2.5rem, 2.75rem, 3rem;
+$i: 0;
+
+@each $size in $lst-size {
+  .m-#{$i} {
+    margin: $size;
+  }
+  .mt-#{$i} {
+    margin-top: $size;
+  }
+  .mb-#{$i} {
+    margin-bottom: $size;
+  }
+  .ms-#{$i} {
+    margin-left: $size;
+  }
+  .me-#{$i} {
+    margin-right: $size;
+  }
+  .mx-#{$i} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+  .my-#{$i} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  // Padding
+  .p-#{$i} {
+    padding: $size;
+  }
+  .pt-#{$i} {
+    padding-top: $size;
+  }
+  .pb-#{$i} {
+    padding-bottom: $size;
+  }
+  .ps-#{$i} {
+    padding-left: $size;
+  }
+  .pe-#{$i} {
+    padding-right: $size;
+  }
+  .px-#{$i} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+  .py-#{$i} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+
+  $i: $i + 1;
+}
